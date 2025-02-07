@@ -2,60 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yi Ding - Academic Profile</title>
     <style>
-        .smallcaps { 
-            text-transform: uppercase;
-            font-size: 1.1em;
-            border-bottom: 1px solid black;
-            display: inline-block;
-            margin: 15px 0 10px;
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 180px;
+            height: auto;
+            border-radius: 4px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            font-size: 1.4em;
+            margin-top: 25px;
+        }
+        .smallcaps {
+            font-variant: small-caps;
+        }
+        ol { 
+            counter-reset: item;
+            padding-left: 20px;
+        }
+        ol li {
+            margin-bottom: 12px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .teaching-list {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .teaching-list li::before {
+            content: "- ";
+            color: #7f8c8d;
+        }
+        .position-title {
+            color: #3498db;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Yi Ding, CFA, FRM</h1>
-    
-    <p>Email: <a href="mailto:yiding@cuhk.edu.cn">yiding@cuhk.edu.cn</a></p>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Yi Ding 丁一, PhD CFA FRM</h1>
+                <p class="position-title">Assistant Professor of Finance</p>
+                <p>Email: <a href="mailto:yiding@cuhk.edu.cn">yiding@cuhk.edu.cn</a></p>
+                <p>Room 801, Teaching Complex D<br>
+                School of Management and Economics<br>
+                The Chinese University of Hong Kong, Shenzhen</p>
+            </div>
+            <img src="3122IIIB.jpg" alt="Yi Ding Profile Photo" class="profile-img">
+        </div>
 
-    <div class="smallcaps">Research Interest</div>
-    <div style="margin-top:3%; text-align:justify;">     
-    <p>China's Financial System; Corporate Disclosure</p>
+        <h2><span class="smallcaps">Research Interest</span></h2>
+        <p>China's Financial System; Corporate Disclosure</p>
 
-    <div class="smallcaps">Employment</div>
-    <p><strong>The Chinese University of Hong Kong, Shenzhen Guangdong, China</strong><br>
-    <strong>School of Management and Economics</strong></p>
-    <ul>
-        <li>Assistant Professor in Finance 2015-Present</li>
-        <li>Area Coordinator in Finance 2016-Present</li>
-    </ul>
+        <h2><span class="smallcaps">Publications</span></h2>
+        <ol>
+            <li>Relative Industry Valuation and Cross-Border Listing (with Kee-Hong Bae and Xiaoqiao Wang), <em>Journal of Banking and Finance</em> 119, 2020.</li>
+            <li>Issuance Overpricing of China's Corporate Debt Securities (with Wei Xiong, Jinfan Zhang), <em>Journal of Financial Economics</em> 144, 2022. Media covered in <em>VoxChina</em> and <em>Tsinghua Financial Review</em>.</li>
+            <li>Strategic Press Release when Employee Unemployment Risk is Better Insured (with Bing Li, Zhenbin Liu, and Xiaoqiao Wang), <em>Journal of Accounting, Auditing, and Finance</em>, forthcoming.</li>
+            <li>Are There Externalities of Private Firm News Disclosure? Evidence from Public Firms' Investment (with Feng Chen, Kevin Tseng, Xiaoqiao Wang, and Xinqiang Du), <em>The Accounting Review</em>, conditionally accepted.</li>
+        </ol>
 
-    <div class="smallcaps">Publications</div>
-    <div style="margin-top:3%; text-align:justify;">  
-    <ol>
-        <li>Relative Industry Valuation and Cross-Border Listing (with Kee-Hong Bae and Xiaoqiao Wang), <em>Journal of Banking and Finance</em> 119, 2020.</li>
-        <li>Issuance Overpricing of China's Corporate Debt Securities (with Wei Xiong, Jinfan Zhang), <em>Journal of Financial Economics</em> 144, 2022. Media covered in <em>VoxChina</em> and <em>Tsinghua Financial Review</em>.</li>
-        <li>Strategic Press Release when Employee Unemployment Risk is Better Insured (with Bing Li, Zhenbin Liu, and Xiaoqiao Wang), <em>Journal of Accounting, Auditing, and Finance</em>, forthcoming.</li>
-        <li>Are There Externalities of Private Firm News Disclosure? Evidence from Public Firms' Investment (with Feng Chen, Kevin Tseng, Xiaoqiao Wang, and Xinqiang Du), <em>The Accounting Review</em>, conditionally accepted.</li>
-    </ol>
+        <h2><span class="smallcaps">Working Papers and Projects</span></h2>
+        <ol start="5">
+            <li>Regulatory Enforcement of Public Disclosure and Connected Investors in Corporate Bond Issuance (with T.J. Wong, Ray Zhang, and Tianyu Zhang), R&R at <em>Management Science</em>.</li>
+            <li>Shadow Banking and the Demand for Safe Assets (with Zhiguo He)</li>
+            <li>Regulatory Arbitrage in China's Bond Markets: Underwriter Demand and the Shadow Banking Nexus</li>
+            <li>Decoding the Green Premium, Evidence from China</li>
+        </ol>
 
-    <div class="smallcaps">Working papers and projects</div>
-    <ol start="5">
-        <li>Regulatory Enforcement of Public Disclosure and Connected Investors in Corporate Bond Issuance (with T.J. Wong, Ray Zhang, and Tianyu Zhang), R&R at <em>Management Science</em>.</li>
-        <li>Shadow Banking and the Demand for Safe Assets (with Zhiguo He)</li>
-        <li>Regulatory Arbitrage in China's Bond Markets: Underwriter Demand and the Shadow Banking Nexus</li>
-        <li>Decoding the Green Premium, Evidence from China</li>
-    </ol>
-
-    <div class="smallcaps">Teaching Experience</div>
-    <p><strong>Presidential Exemplary Teaching Award (first in university's history)</strong> — CUHK-Shenzhen 2017</p>
-    <p><strong>The Chinese University of Hong Kong, Shenzhen 2015-2024</strong></p>
-    <ul>
-        <li>Introductory Econometrics (Teaching Rating: <strong>5.9/6</strong>)</li>
-    </ul>
-    <p><strong>Queen's School of Business 2012</strong></p>
-    <ul>
-        <li>Introduction to Finance (Teaching Rating: <strong>4.7/5</strong>)</li>
-    </ul>
+        <h2><span class="smallcaps">Teaching</span></h2>
+        <p>The Chinese University of Hong Kong, Shenzhen 2015-2024</p>
+        <ul class="teaching-list">
+            <li>Introductory Econometrics (Teaching Rating: 5.9/6)</li>
+            <li>Presidential Exemplary Teaching Award (first in university's history) — CUHK-Shenzhen 2017</li>
+        </ul>
+    </div>
 </body>
 </html>
